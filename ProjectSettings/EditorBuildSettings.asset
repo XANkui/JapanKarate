@@ -15,5 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/02MainMenuScene.unity
     guid: b5f73012cb5ae4792b05bc10b6189978
   - enabled: 1
-    path: Assets/Scenes/03mapLevelSelectScene.unity
+    path: Assets/Scenes/03MapLevelSelectScene.unity
     guid: b2557b125f76b4d99878b4f19967787b

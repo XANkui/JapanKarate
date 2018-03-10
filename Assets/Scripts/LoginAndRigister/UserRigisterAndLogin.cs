@@ -91,7 +91,7 @@ public class UserRigisterAndLogin : MonoBehaviour {
 				uiLoginAndRigister.loginTipText.text = "登陆成功, 数据加载中...";
 
 				//加载场景，后期可异步加载场景
-				UnityEngine.SceneManagement.SceneManager.LoadScene (1);
+				UnityEngine.SceneManagement.SceneManager.LoadScene (2);
 			}
 		);
 

@@ -50,7 +50,7 @@ public class PlayVideoOnUI : MonoBehaviour {
 		}
 
 		//按下任意键跳转
-		if(Input.GetKeyDown (KeyCode.A)){
+		if(Input.anyKeyDown){
 			//发送消息
 			SendMessage ("JumpToScene", 1);
 		}

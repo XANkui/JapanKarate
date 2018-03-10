@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeTexture: {fileID: 2800000, guid: 29f1128344f5642fab2f1070775f0c94, type: 3}
-  FadeSpeed: 1.5
+  FadeSpeed: 2
 --- !u!328 &1825662842
 VideoPlayer:
   m_ObjectHideFlags: 0

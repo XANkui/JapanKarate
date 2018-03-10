@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/03mapLevelSelectScene.unity
+- path: Assets/Scenes/03MapLevelSelectScene.unity
   isLoaded: 1
   isActive: 1

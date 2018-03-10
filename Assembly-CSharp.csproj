@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\03MapLevelSelect\CurseLevelSelect.cs" />
+     <Compile Include="Assets\Scripts\03MapLevelSelect\MapLevelSelectGameManager.cs" />
+     <Compile Include="Assets\Scripts\03MapLevelSelect\MapSelect.cs" />
+     <Compile Include="Assets\Scripts\03MapLevelSelect\RankDataAttr.cs" />
+     <Compile Include="Assets\Scripts\03MapLevelSelect\UIMapLevelSelect.cs" />
      <Compile Include="Assets\Scripts\LoginAndRigister\UILoginAndRigister.cs" />
      <Compile Include="Assets\Scripts\LoginAndRigister\UserRigisterAndLogin.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenuGameManager.cs" />
