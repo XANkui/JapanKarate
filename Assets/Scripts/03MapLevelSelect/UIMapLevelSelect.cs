@@ -39,14 +39,19 @@ public class UIMapLevelSelect : MonoBehaviour {
 	public bool isShowRankpanel = false;
 
 
+
+
 	// Use this for initialization
 	void Start () {
-		
+
+		//
 		isShowBackpackpanel = false;
 
 		isShowMallpanel = false;
 
 		isShowRankpanel = false;
+
+
 	}
 	
 	// Update is called once per frame
@@ -67,7 +72,9 @@ public class UIMapLevelSelect : MonoBehaviour {
 		//显示背包界面
 		if (isShowBackpackpanel == true) {
 			MapLevelSelectGameManager.Instance.ShowBackpackPanel ();
-		} 
+		} else {
+			MapLevelSelectGameManager.Instance.HideBackpackMallRankPanel ();
+		}
 	}
 
 	/// <summary>

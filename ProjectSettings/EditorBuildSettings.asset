@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03MapLevelSelectScene.unity
     guid: b2557b125f76b4d99878b4f19967787b
+  - enabled: 1
+    path: Assets/Scenes/04GameARScene.unity
+    guid: 5a3feb33efbbb45258ae40379d802113

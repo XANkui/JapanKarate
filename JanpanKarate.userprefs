@@ -1,11 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/03MapLevelSelect/MapLevelSelectGameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/00PromotionalVideo/PlayVideoOnUI.cs">
     <Files>
-      <File FileName="Assets/Scripts/03MapLevelSelect/MapLevelSelectGameManager.cs" Line="364" Column="2" />
-      <File FileName="Assets/Scripts/03MapLevelSelect/MapSelect.cs" Line="77" Column="3" />
+      <File FileName="Assets/Scripts/04GameAR/LoadCurseLevel.cs" Line="33" Column="1" />
+      <File FileName="Assets/Plugins/UnityARKitPlugin/MyARData/Scripts/UnityARHitTestExample.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/03MapLevelSelect/CurseLevelSelect.cs" Line="65" Column="35" />
+      <File FileName="Assets/Scripts/03MapLevelSelect/MapLevelSelectGameManager.cs" Line="92" Column="23" />
+      <File FileName="Assets/Scripts/03MapLevelSelect/MapSelect.cs" Line="93" Column="30" />
+      <File FileName="Assets/Scripts/03MapLevelSelect/UIMapLevelSelect.cs" Line="94" Column="64" />
+      <File FileName="Assets/Scripts/Tool/FadeJumpToScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/00PromotionalVideo/PlayVideoOnUI.cs" Line="30" Column="3" />
       <File FileName="../BmobLoginTest0301/Assets/Scripts/RankDataAttr.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="../../../Downloads/AngryBird-master/Assets/Scripts/MapSelect.cs" Line="25" Column="9" NotebookId="1" />
+      <File FileName="../../../Downloads/AngryBird-master/Assets/Scripts/MapSelect.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="../../../Downloads/AngryBird-master/Assets/Scripts/LoadLevel.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="../../../Downloads/AngryBird-master/Assets/Scripts/LevelSelect.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Plugins/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/PointCloudParticleExample.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Plugins/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARGeneratePlane.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/04GameAR/GameARGameManager.cs" Line="18" Column="18" NotebookId="1" />
+      <File FileName="Assets/Scripts/04GameAR/UIGameAR.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

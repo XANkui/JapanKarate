@@ -51,19 +51,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\00PromotionalVideo\PlayVideoOnUI.cs" />
+     <Compile Include="Assets\Scripts\01LoginAndRigister\UILoginAndRigister.cs" />
+     <Compile Include="Assets\Scripts\01LoginAndRigister\UserRigisterAndLogin.cs" />
+     <Compile Include="Assets\Scripts\02MainMenu\MainMenuGameManager.cs" />
+     <Compile Include="Assets\Scripts\02MainMenu\UIMainMenu.cs" />
      <Compile Include="Assets\Scripts\03MapLevelSelect\CurseLevelSelect.cs" />
      <Compile Include="Assets\Scripts\03MapLevelSelect\MapLevelSelectGameManager.cs" />
      <Compile Include="Assets\Scripts\03MapLevelSelect\MapSelect.cs" />
      <Compile Include="Assets\Scripts\03MapLevelSelect\RankDataAttr.cs" />
      <Compile Include="Assets\Scripts\03MapLevelSelect\UIMapLevelSelect.cs" />
-     <Compile Include="Assets\Scripts\LoginAndRigister\UILoginAndRigister.cs" />
-     <Compile Include="Assets\Scripts\LoginAndRigister\UserRigisterAndLogin.cs" />
-     <Compile Include="Assets\Scripts\MainMenu\MainMenuGameManager.cs" />
-     <Compile Include="Assets\Scripts\MainMenu\UIMainMenu.cs" />
-     <Compile Include="Assets\Scripts\PromotionalVideo\PlayVideoOnUI.cs" />
+     <Compile Include="Assets\Scripts\04GameAR\GameARGameManager.cs" />
+     <Compile Include="Assets\Scripts\04GameAR\LoadCurseLevel.cs" />
+     <Compile Include="Assets\Scripts\04GameAR\UIGameAR.cs" />
      <Compile Include="Assets\Scripts\Tool\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Tool\FadeJumpToScene.cs" />
      <Compile Include="Assets\Scripts\Tool\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Tool\TouchScreenToScaleAndRotate.cs" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
+     <None Include="Assets\Resources\Model\cike\Models\NormalMonster.shader" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\Examples\Common\Shaders\MobileARShadow.shader" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
+     <None Include="Assets\Plugins\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -88,6 +99,10 @@
  <Reference Include="Bmob-Unity">
  <HintPath>/Users/houhime/Desktop/XAN_UnityProject/JanpanKarate/Assets/Plugins/Bmob/Bmob-Unity.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{20962E50-8FF8-29D3-6257-FBDC0B7AA40F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
